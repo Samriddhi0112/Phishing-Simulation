@@ -1,25 +1,25 @@
-# 🎣 Enterprise Phishing Simulation Using Gophish on Kali Linux
+#  Enterprise Phishing Simulation Using Gophish on Kali Linux
 
 **A controlled, end-to-end phishing simulation** built using **Gophish** on **Kali Linux** inside a VirtualBox VM, tunneled to the internet via **ngrok**. This project demonstrates the complete phishing attack lifecycle — from infrastructure setup and social engineering design through campaign execution, credential harvesting, and forensic analysis — all within an ethical, isolated lab environment.
 
-> ⚠️ **Disclaimer:** This project is strictly for **educational purposes**. All targets were the project team's own email accounts with dummy credentials. Unauthorized phishing is illegal under the **IT Act 2000 (India)**, **CFAA (US)**, and similar laws worldwide.
+>  **Disclaimer:** This project is strictly for **educational purposes**. All targets were the project team's own email accounts with dummy credentials. Unauthorized phishing is illegal under the **IT Act 2000 (India)**, **CFAA (US)**, and similar laws worldwide.
 
 ---
 
-## 📌 What This Repository Contains
+##  What This Repository Contains
 
 This repository documents a professional phishing simulation project, including:
 
-- 📘 Detailed explanation of all components and technologies used
-- 🎯 Real-world use cases and edge cases with solutions
-- 🛠️ Step-by-step implementation guide
-- 📸 Screenshots of every stage of the simulation
-- 📊 Campaign results and forensic analysis
-- 📑 Project presentation (PPT)
+-  Detailed explanation of all components and technologies used
+-  Real-world use cases and edge cases with solutions
+-  Step-by-step implementation guide
+-  Screenshots of every stage of the simulation
+-  Campaign results and forensic analysis
+-  Project presentation (PPT)
 
 ---
 
-## ⚡ Key Features & Highlights
+##  Key Features & Highlights
 
 - **Full Attack Lifecycle:** Covers reconnaissance → weaponization → delivery → exploitation → data capture
 - **Real SMTP Delivery:** Uses Gmail SMTP (Port 587 + STARTTLS) with App Password authentication
@@ -32,7 +32,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Tool / Technology | Category | Purpose |
 |-------------------|----------|---------|
@@ -82,7 +82,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 📸 Screenshots & Demonstration
+##  Screenshots & Demonstration
 
 ### Phase 1 — Infrastructure Setup
 
@@ -122,7 +122,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 🚀 How It Works (Step-by-Step)
+##  How It Works (Step-by-Step)
 
 ### 1️⃣ Environment Setup
 - Kali Linux runs inside VirtualBox with NAT networking
@@ -157,7 +157,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 | # | Use Case | Actor | Outcome |
 |---|----------|-------|---------|
@@ -165,12 +165,12 @@ This repository documents a professional phishing simulation project, including:
 | 2 | **Red Team / Penetration Testing** | Ethical Hackers | Prove phishing as a viable attack vector with PoC |
 | 3 | **Compliance Testing** | Auditors | Meet ISO 27001, NIST, PCI-DSS, HIPAA requirements |
 | 4 | **Incident Response Drills** | SOC Team | Test detection and response to phishing attacks |
-| 5 | **Academic Demonstration** ✅ | Students / Professors | Hands-on learning in a controlled lab environment |
+| 5 | **Academic Demonstration**  | Students / Professors | Hands-on learning in a controlled lab environment |
 | 6 | **Email Security Product Testing** | IT Admins | Validate email gateway effectiveness |
 
 ---
 
-## ⚠️ Common Edge Cases & Troubleshooting
+##  Common Edge Cases & Troubleshooting
 
 | Edge Case | Root Cause | Solution |
 |-----------|-----------|----------|
@@ -185,7 +185,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 🔐 Security & Ethical Considerations
+##  Security & Ethical Considerations
 
 | Aspect | Detail |
 |--------|--------|
@@ -206,7 +206,7 @@ This repository documents a professional phishing simulation project, including:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Phishing/
@@ -234,7 +234,7 @@ Phishing/
 
 ---
 
-## 📊 Campaign Results Summary
+##  Campaign Results Summary
 
 | Metric | Count | Description |
 |--------|:-----:|-------------|
@@ -260,20 +260,20 @@ Phishing/
 
 ---
 
-## 🛡️ Defensive Measures (Key Takeaways)
+##  Defensive Measures (Key Takeaways)
 
 | Layer | Defense | How It Helps |
 |-------|---------|--------------|
-| 👤 **People** | Security awareness training | Employees learn to recognize phishing emails |
-| 📋 **Process** | Phishing reporting button | Easy mechanism to flag suspicious emails |
-| 🔧 **Technology** | SPF / DKIM / DMARC | Prevents email domain spoofing |
-| 🔧 **Technology** | Multi-Factor Authentication (MFA) | Stolen passwords alone can't grant access |
-| 🔧 **Technology** | Email security gateways | Filters phishing before delivery (Proofpoint, Mimecast) |
-| 🔧 **Technology** | URL sandboxing | Scans links in emails before users can click them |
+|  **People** | Security awareness training | Employees learn to recognize phishing emails |
+|  **Process** | Phishing reporting button | Easy mechanism to flag suspicious emails |
+|  **Technology** | SPF / DKIM / DMARC | Prevents email domain spoofing |
+|  **Technology** | Multi-Factor Authentication (MFA) | Stolen passwords alone can't grant access |
+|  **Technology** | Email security gateways | Filters phishing before delivery (Proofpoint, Mimecast) |
+|  **Technology** | URL sandboxing | Scans links in emails before users can click them |
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 | Extension | Description |
 |-----------|-------------|
@@ -286,7 +286,7 @@ Phishing/
 
 ---
 
-## 📚 References
+##  References
 
 - [Gophish Official Documentation](https://docs.getgophish.com)
 - [Gophish GitHub Repository](https://github.com/gophish/gophish)
@@ -300,16 +300,16 @@ Phishing/
 
 ---
 
-## 📜 License
+##  License
 
 This project is for **educational and academic purposes only**.  
 Unauthorized use of phishing tools against individuals or organizations without explicit written consent is **illegal** and **unethical**.
 
 ---
 
-## 🙋 Contact
+##  Contact
 
 For questions or academic collaboration:
 
-- 📧 Email: rishabh.ahuja101@gmail.com
-- 🐛 Issues: [Open an Issue](../../issues)
+-  Email: rishabh.ahuja101@gmail.com
+-  Issues: [Open an Issue](../../issues)
