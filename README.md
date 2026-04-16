@@ -118,8 +118,7 @@ This repository documents a professional phishing simulation project, including:
 
 | Campaign Results Dashboard | Forensic Timeline (Captured Data) |
 |:--------------------------:|:---------------------------------:|
-| ![Results](Implementataion_ss/s
-tep8.png) <br> *4 Sent, 2 Opened, 2 Clicked, 1 Submitted — real-time tracking* | ![Forensics](Implementataion_ss/step8.1.png) <br> *Full forensic timeline showing captured credentials, IP, browser info* |
+| ![Results](Implementataion_ss/step8.png) <br> *4 Sent, 2 Opened, 2 Clicked, 1 Submitted — real-time tracking* | ![Forensics](Implementataion_ss/step8.1.png) <br> *Full forensic timeline showing captured credentials, IP, browser info* |
 
 ---
 
