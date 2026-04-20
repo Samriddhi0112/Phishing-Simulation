@@ -2,8 +2,6 @@
 
 **A controlled, end-to-end phishing simulation** built using **Gophish** on **Kali Linux** inside a VirtualBox VM, tunneled to the internet via **ngrok**. This project demonstrates the complete phishing attack lifecycle — from infrastructure setup and social engineering design through campaign execution, credential harvesting, and forensic analysis — all within an ethical, isolated lab environment.
 
->  **Disclaimer:** This project is strictly for **educational purposes**. All targets were the project team's own email accounts with dummy credentials. Unauthorized phishing is illegal under the **IT Act 2000 (India)**, **CFAA (US)**, and similar laws worldwide.
-
 ---
 
 ##  What This Repository Contains
@@ -184,17 +182,6 @@ This repository documents a professional phishing simulation project, including:
 | **Forgot Admin Password** | Password set at first login was lost | Reset via SQLite: update bcrypt hash in `gophish.db` |
 
 ---
-
-##  Security & Ethical Considerations
-
-| Aspect | Detail |
-|--------|--------|
-| **Legal Compliance** | All activities comply with IT Act 2000 (India) — only self-targeted |
-| **Authorization** | Only the project team's own email accounts were used |
-| **Data Handling** | All captured credentials are dummy/test data |
-| **Environment** | Isolated VirtualBox VM — no real user data was harvested |
-| **Purpose** | Strictly educational, conducted under academic supervision |
-| **Disclosure** | Clearly documented as a simulation — not for malicious use |
 
 ### Relevant Indian Cyber Law (IT Act 2000)
 
